@@ -1,16 +1,16 @@
-# This is a sample Python script.
+#Ejemplo de una clase
+#El nombre de la clase siempre tiene que empezar con Mayuscula ej, Hola, Usuario, Saludo
+#A continuacion esta la estructura basica de una clase
+class Usuario():#NOMBRE
+    #DATOS
+    nombre = ""
+    apellido = ""
+    correo = ""
+    contrasena = ""
 
-# Press ⌃F5 to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+    #METODOS
+    def encritarContrasena(self):
+        pass
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def verificarContrasena(self):
+        pass
