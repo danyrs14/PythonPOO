@@ -11,9 +11,11 @@ class Usuario():#NOMBRE
     #METODOS (funcionalidad)
     #en los metodos sus funciones deben tener self como parametro
     def encritarContrasena(self):
+        pass
         return "encriptando..."
 
     def verificarContrasena(self):
+        pass
         return "desencriptando..."
 
 #Se crea una instancia de la clase usuario es decir una copia
