@@ -23,6 +23,9 @@ movile.nombre = name
 movile.director = director
 movile.duracion = duracion
 movile.clasificacion = clasificacion
+print("PELICULA 1")
 print("Nombre: ", movile.nombre)
 print("Director: ", movile.director)
+print("Duracion: ", movile.duracion)
+print("Clasificacion: ", movile.clasificacion)
 print(movile.reproducir())
