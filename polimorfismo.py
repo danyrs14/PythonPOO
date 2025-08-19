@@ -18,6 +18,7 @@ class Shape:
 #y aparte le añadimos un atributo propio
 class Circulo(Shape):
     def __init__(self, x, y, radius):
+        #si se pone raius*2 dos veces es porque la clase padre esta diseñada para tener largo y ancho
         super().__init__(x, y, radius*2, radius*2)
         self.radius = radius
 
