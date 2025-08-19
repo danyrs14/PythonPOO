@@ -46,6 +46,13 @@ circulo = Circulo(50, 50, 25)
 triangulo = Triangulo(100, 100, 200, 200)
 rectangulo = Rectangulo(300, 200, 200, 100)
 
-circulo.draw()
-triangulo.draw()
-rectangulo.draw()
+#circulo.draw()
+#triangulo.draw()
+#rectangulo.draw()
+
+## o bien se puede imprimir de esta manera
+
+formas = [circulo, triangulo, rectangulo]
+
+for forma in formas:
+    forma.draw()
