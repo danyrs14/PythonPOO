@@ -63,6 +63,3 @@ print(user1.obtener_telefono())     # ✅ teléfono actualizado
 
 print(user1.verificar_contrasenia("root"))   # ✅ True
 print(user1.verificar_contrasenia("admin"))  # ❌ False
-
-# Intentar acceder directamente a __telefono dará error
-# print(user1.__telefono)  # ❌ AttributeError
